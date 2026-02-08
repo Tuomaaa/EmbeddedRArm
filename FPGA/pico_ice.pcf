@@ -1,0 +1,14 @@
+# pico_ice.pcf - pico-ice 引脚约束文件
+
+set_io clk 35
+
+set_io btn 12
+set_io rx 31
+
+set_io led_red   39
+set_io led_green 40
+set_io led_blue  41
+
+set_io led_debug 34
+set_io led_debug2 20
+set_io pwm_out 23
