@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'esp32_bridge = robot_arm.esp32_bridge:main',
+            'web_gui = robot_arm.web_gui:main',
         ],
     },
 )
